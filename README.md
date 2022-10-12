@@ -8,7 +8,7 @@ pip install git+https://github.com/PXD-mc/Nethergames
 
 <h2> Player Attributes </h2>
 
-```rust
+```cpp
 - raw 
 - name  
 - id  
