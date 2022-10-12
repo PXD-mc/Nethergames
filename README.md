@@ -75,3 +75,22 @@ Name : PXDmc
 Staff : False
 
 ```
+
+<h2> Guild Attributes </h2>
+- raw <br/ >
+- name <br />    
+- max <br />    
+- id <br />    
+- member_count <br />   
+- motd <br />    
+- position <br />   
+- tag <br />    
+- xp <br />    
+- level <br />    
+- leader <br />    
+- tagColour <br />
+- xp_till_next_level <br />
+- slots <br />
+- is_full <br />
+- members <br />  
+- officers <br /> 
