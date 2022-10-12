@@ -1,4 +1,6 @@
 # Nethergames.py
+You can use `nethergames.Leaderboard()` but it is not fully supported
+
 <h2> How to Install: </h2>
  
 ```ruby
