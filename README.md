@@ -64,13 +64,13 @@ import nethergames
 
 player = nethergames.Player('PXDmc')
 print(f'Name : {player.name}')
-print(f'Level : {player.level}')
+print(f'Staff : {player.staff}')
 
 ```
 result
 ```
 
 Name : PXDmc
-Level : 351
+Staff : False
 
 ```
