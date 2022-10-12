@@ -101,3 +101,24 @@ Staff : False
 - members   
 - officers  
 ```
+
+
+
+```python
+
+import nethergames
+
+player = nethergames.Guild('TotallyRealGuild')
+print(f'Name : {guild.name}')
+print(f'Open slots in guild : {guild.slots}')
+print(f'Guild leader : {guild.leader}')
+
+```
+result
+```
+
+Name : TotallyRealGuild
+Open slots in guild : 12
+Guild leader : PXDmc
+
+```
