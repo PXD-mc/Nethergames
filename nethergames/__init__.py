@@ -1,1 +1,1 @@
-from .nethergames import Player
+from .nethergames import *
