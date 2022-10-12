@@ -3,6 +3,36 @@
 
 <h2> Examples: </h2>
 
+
+You can fetch Guilds, Players and Leaderboards.
+
+<h2> Player Attributes </h2>
+    name   
+    id    
+    bio    
+    guild    
+    skin    
+    avatar    
+    level    
+    xp  
+    credits    
+    kdr   
+    kdrTotal    
+    allKills    
+    allDeaths    
+    kills   
+    deaths    
+    wins    
+    losses    
+    wlr    
+    keys    
+    tier    
+    server    
+    seen    
+    discordID    
+    tier_color
+
+
 ```python
 
 import nethergames
