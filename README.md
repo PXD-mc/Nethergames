@@ -56,7 +56,7 @@ pip install git+https://github.com/PXD-mc/Nethergames
 - status <br />
 - voteStatus <br />
 - voted <br />
-
+<br />
 
 ```python
 
