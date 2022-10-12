@@ -108,7 +108,7 @@ Staff : False
 
 import nethergames
 
-player = nethergames.Guild('TotallyRealGuild')
+guild = nethergames.Guild('TotallyRealGuild')
 print(f'Name : {guild.name}')
 print(f'Open slots in guild : {guild.slots}')
 print(f'Guild leader : {guild.leader}')
