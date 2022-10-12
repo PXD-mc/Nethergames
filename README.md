@@ -1,5 +1,5 @@
 # Nethergames.py
-<h2> How to Install: </h2> `pip install git+https://github.com/PXD-mc/Nethergames`
+<h2> How to Install: </h2> ```pip install git+https://github.com/PXD-mc/Nethergames```
 
 
 <h2> Player Attributes </h2>
