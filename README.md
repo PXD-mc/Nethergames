@@ -8,7 +8,7 @@ pip install git+https://github.com/PXD-mc/Nethergames
 
 <h2> Player Attributes </h2>
 
-```cpp
+```ruby
 - raw 
 - name  
 - id  
@@ -81,7 +81,9 @@ Staff : False
 ```
 
 <h2> Guild Attributes </h2>
-- raw <br/ >
+
+```ruby
+- raw 
 - name     
 - max     
 - id     
@@ -98,3 +100,4 @@ Staff : False
 - is_full 
 - members   
 - officers  
+```
