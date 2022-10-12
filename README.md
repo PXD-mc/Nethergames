@@ -7,7 +7,7 @@
 You can fetch Guilds, Players and Leaderboards.
 
 <h2> Player Attributes </h2>
-name  
+name  <br />
 id  
 bio  
 guild  
