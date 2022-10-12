@@ -70,7 +70,7 @@ print(f'Level : {player.level}')
 result
 ```
 
-Name: PXDmc
-Level: 351
+Name : PXDmc
+Level : 351
 
 ```
