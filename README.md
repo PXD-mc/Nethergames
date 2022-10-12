@@ -1,7 +1,7 @@
 # Nethergames.py
 <h2> How to Install: </h2>
  
-```py
+```json
 pip install git+https://github.com/PXD-mc/Nethergames
 ```
 
