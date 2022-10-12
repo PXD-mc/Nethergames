@@ -13,7 +13,7 @@ print(f'Level : {player.level}')
 
 ```
 result
-```python
+```
 
 Name: PXDmc
 Level: 351
