@@ -7,6 +7,7 @@ pip install git+https://github.com/PXD-mc/Nethergames
 
 
 <h2> Player Attributes </h2>
+
 ```ruby
 - raw <br />
 - name  <br />
@@ -59,6 +60,7 @@ pip install git+https://github.com/PXD-mc/Nethergames
 - voteStatus <br />
 - voted <br />
 ```
+
 <br />
 
 ```python
