@@ -31,6 +31,31 @@ You can fetch Guilds, Players and Leaderboards.
 - seen  <br />
 - discordID  <br />
 - tier_color  <br />
+- ranks <br />
+- zones <br />
+- levelColors <br />
+- rankColors <br />
+- winsData <br />
+- extra <br />
+- extraNested <br />
+- firstJoined <br />
+- firstJoinedDate <br />
+- lastJoined <br />
+- lastJoinedDate <br />
+- quit <br />
+- lastRankTime <br />
+- banned_until <br />
+- staff <br />
+- titan <br />
+- muted <br />
+- banned <br />
+- skin_is_public <br />
+- hasRank <br />
+- hasTier <br />
+- online <br />
+- status <br />
+- voteStatus <br />
+- voted <br />
 
 
 ```python
