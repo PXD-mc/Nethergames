@@ -1,3 +1,4 @@
-import urllib.request,json
 from .nethergames import *
 from .player import Player
+from .guild import Guild
+from .leaderboard import Leaderboard
