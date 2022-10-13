@@ -10,6 +10,7 @@ class Player():
 
     ##
     self.name = data['name']
+    self.flags = data['flags']
     self.id = data['xuid']
     self.bio = data['bio']
     self.guild = data['guild']
@@ -27,13 +28,25 @@ class Player():
     self.wins = data['wins']
     self.losses = data['losses']
     self.wlr = data['wlr']
-    self.realWlr = round((data['winsData']['SW']+data['winsData']['TB']+data['winsData']['Duels']+data['winsData']['TR'])/(data['losses']),2)
     self.keys = data['crateKeys']
     self.tier = data['tier']
     self.server = data['lastServer']
     self.seen = data['lastSeen']
     self.discord_id = self.discordId = self.discordID = data['discordId']
     self.tier_color = self.tier_colour = self.tierColor = self.tierColour = data['tierColor']
+    
+    self.bedwarsWins = data['winsData']['BW']
+    self.skywarsWins = data['winsData']['SW']
+    self.bridgeWins = data['winsData']['TB']
+    self.duelsWins = data['winsData']['Duels']
+    self.survivalgamesWins = data['winsData']['SG']
+    self.murdermysteryWins = data['winsData']['MM']
+    self.mommasaysWins = data['winsData']['MS']
+    self.tntrunWins = data['winsData']['TR']
+    self.uhcWins = data['winsData']['UHC']
+    self.conquestWins = data['winsData']['CQ']
+    self.soccerWins = data['winsData']['SC']
+    self.blockhuntWins = data['winsData']['BH']
 
     #lists
     self.ranks = data['ranks']
@@ -65,6 +78,7 @@ class Player():
     self.quit = data['lastQuit']
     self.lastRankTime = data['lastRankTimestamp']
     self.banned_until = data['bannedUntil']
+    
 
     #boolens
     self.staff = data['staff']
