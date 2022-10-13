@@ -1,2 +1,2 @@
 import setuptools
-setuptools.setup(name='Nethergames',version='0.1a',description='Interact with nethergames API without having to write complex code.',author='PXD',packages=['nethergames'])
+setuptools.setup(name='Nethergames',version='beta-0.1b',description='Allows you to interact with Nethergames API.',author='PXD',packages=['nethergames'])
