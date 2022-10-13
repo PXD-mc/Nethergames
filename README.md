@@ -67,7 +67,7 @@ pip install git+https://github.com/PXD-mc/Nethergames
 ```
 
 
-
+Example
 ```python
 
 import nethergames
@@ -110,7 +110,7 @@ Bedwars Wins : 5868
 ```
 
 
-
+Example
 ```python
 
 import nethergames
@@ -143,8 +143,7 @@ replace [servername] with bedwars, skyways, duels and so on.
 - max
 ```
 
-
-
+Example
 ```python
 
 import nethergames
@@ -154,7 +153,7 @@ print(f'Total players online : {servers.total}')
 print(f'Players in bedwars : {servers.bedwarsCount}')
 
 ```
-result
+Output
 ```
 
 Total players online : 1002
