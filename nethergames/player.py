@@ -27,6 +27,7 @@ class Player():
     self.wins = data['wins']
     self.losses = data['losses']
     self.wlr = data['wlr']
+    self.realWlr = round(data['winsData']['SW']+data['winsData']['TB']+data['winsData']['Duels']+data['winsData']['TR'])/(data['losses']),2)
     self.keys = data['crateKeys']
     self.tier = data['tier']
     self.server = data['lastServer']
