@@ -75,13 +75,15 @@ import nethergames
 player = nethergames.Player('PXDmc')
 print(f'Name : {player.name}')
 print(f'Staff : {player.staff}')
+print(f'Bedwars Wins : {player.bedwarsWins}')
 
 ```
-result
+Output
 ```
 
 Name : PXDmc
 Staff : False
+Bedwars Wins : 5868
 
 ```
 
@@ -119,7 +121,7 @@ print(f'Open slots in guild : {guild.slots}')
 print(f'Guild leader : {guild.leader}')
 
 ```
-result
+Output
 ```
 
 Name : TotallyRealGuild
@@ -139,4 +141,23 @@ replace [servername] with bedwars, skyways, duels and so on.
 - [servername]Count
 - total
 - max
+```
+
+
+
+```python
+
+import nethergames
+
+servers = nethergames.Servers()
+print(f'Total players online : {servers.total}')
+print(f'Players in bedwars : {servers.bedwarsCount}')
+
+```
+result
+```
+
+Total players online : 1002
+Players in bedwars : 362 
+
 ```
