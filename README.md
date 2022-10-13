@@ -1,7 +1,8 @@
 # Nethergames.py
 <h2> NOTES </h2> 
+
 You can use `nethergames.Leaderboard()` but it is not fully supported <br />
-You cannot go above 750 requests per hour
+You cannot go past 750 requests per hour
 
 <h2> How to Install: </h2>
  
