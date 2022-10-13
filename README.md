@@ -64,6 +64,19 @@ pip install git+https://github.com/PXD-mc/Nethergames
 - status 
 - voteStatus 
 - voted 
+- bedwarsWins 
+- skywarsWins 
+- bridgeWins 
+- duelsWins 
+- survivalgamesWins 
+- murdermysteryWins 
+- mommasaysWins 
+- tntrunWins 
+- uhcWins 
+- conquestWins 
+- soccerWins 
+- blockhuntWins
+
 ```
 
 
