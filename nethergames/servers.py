@@ -32,8 +32,8 @@ class Servers():
     self.murdermysteryCount = data['mm']['count']
     
     self.mommasays = data['ms']
-    self.mommasaysMax = data['cq']['ms']
-    self.mommasaysCount = data['cq']['ms']
+    self.mommasaysMax = data['ms']['max']
+    self.mommasaysCount = data['ms']['count']
     
     self.replay = data['replay']
     self.replayMax = data['replay']['max']
