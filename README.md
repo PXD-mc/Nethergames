@@ -130,7 +130,7 @@ Guild leader : PXDmc
 
 ```
 
-<h2> Servers Attributes </h2>
+<h2> Server Attributes </h2>
 
 ```ruby
 replace [servername] with bedwars, skyways, duels and so on.
