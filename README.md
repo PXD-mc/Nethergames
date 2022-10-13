@@ -127,3 +127,16 @@ Open slots in guild : 12
 Guild leader : PXDmc
 
 ```
+
+<h2> Servers Attributes </h2>
+
+```ruby
+replace [servername] with bedwars, skyways, duels and so on.
+
+- raw 
+- [servername]
+- [servername]Max
+- [servername]Count
+- total
+- max
+```
