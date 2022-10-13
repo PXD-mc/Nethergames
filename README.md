@@ -1,5 +1,7 @@
 # Nethergames.py
-NOTE : You can use `nethergames.Leaderboard()` but it is not fully supported
+<h2> NOTES </h2> 
+You can use `nethergames.Leaderboard()` but it is not fully supported
+DO NOT GO PAST 750 REQUESTS PER HOUR
 
 <h2> How to Install: </h2>
  
