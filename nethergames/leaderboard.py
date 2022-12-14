@@ -1,24 +1,16 @@
 import urllib.request,json
 class Leaderboard():
-  def __init__(self,type):
+  def __init__(self,type,subtype=None,limit=100):
     self.type = type
-    request = urllib.request.Request(f"https://apiv2.nethergames.org/v1/leaderboard?type={type}", headers={'User-Agent': 'Mozilla/91.0'})  
+    if (self.type).lower() == 'game':
+      if subtype == None:
+        raise Exception("\n\nsubtype cannot be empty when type is 'game'\nLeaderboard(type,subtype,limit)")
+      request = urllib.request.Request(f"https://apiv2.nethergames.org/v1/leaderboard?type=game&column={subtype}&limit={limit}", headers={'User-Agent': 'Mozilla/91.0'})
+    else:
+      request = urllib.request.Request(f"https://apiv2.nethergames.org/v1/leaderboard?type={type}&limit={limit}", headers={'User-Agent': 'Mozilla/91.0'})
     response = urllib.request.urlopen(request)
     self.data = json.loads(response.read().decode('UTF-8'))
     
-    self.raw = self.data
-    
-    self.total = 0
-    self.all = []
-    for i in self.data:
-      self.total+=1
-      self.all.append({'name': list(i.values())[1], 'amount': list(i.values())[2],'id': list(i.values())[0]})
-      self.players = [list(i.values())[0] for i in self.all]
-  def leaderboard(self):
-    return self.data
-  def get_player_names(self):
-    return [i['name'] for i in self.players]
-  def get_player_amounts(self):
-    return [i['amount'] for i in self.players]
-  def get_player_ids(self):
-    return [i['id'] for i in self.players]
+    self.leaderboard = self.data
+    self.last = self.data[limit-1]
+    self.top = self.data[0]
