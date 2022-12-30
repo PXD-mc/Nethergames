@@ -2,8 +2,8 @@ import urllib.request, json
 
 class Guild():
   def __init__(self,guild:str):
-    self.guild = guild
-    request = urllib.request.Request(f"https://apiv2.nethergames.org/v1/guilds/{guild.replace(' ','%20')}", headers={'User-Agent': 'Mozilla/91.0'})  
+    self.guild = str(guild)
+    request = urllib.request.Request(f"https://apiv2.nethergames.org/v1/guilds/{str(guild).replace(' ','%20')}", headers={'User-Agent': 'Mozilla/91.0'})  
     response = urllib.request.urlopen(request)
     data = json.loads(response.read().decode('UTF-8'))
 
