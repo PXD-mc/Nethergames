@@ -1,8 +1,8 @@
 import json,urllib.request
 class Player():
   def __init__(self,player:str):
-    self.player = player
-    request = urllib.request.Request(f"https://apiv2.nethergames.org/v1/players/{player.replace(' ','%20')}", headers={'User-Agent': 'Mozilla/91.0'})  
+    self.player = str(player)
+    request = urllib.request.Request(f"https://apiv2.nethergames.org/v1/players/{str(player).replace(' ','%20')}", headers={'User-Agent': 'Mozilla/91.0'})  
     response = urllib.request.urlopen(request)
     data = json.loads(response.read().decode('UTF-8'))
 
