@@ -1,6 +1,6 @@
 import urllib.request,json
 class Leaderboard():
-  def __init__(self,type,subtype=None,limit=100):
+  def __init__(self,type:str,subtype:str=None,limit:int=100):
     self.type = type
     if (self.type).lower() == 'game':
       if subtype == None:
