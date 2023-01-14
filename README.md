@@ -2,7 +2,7 @@
 <h2> NOTES </h2> 
 
 - You can use `nethergames.Leaderboard()` but it is not fully supported <br />
-- [click here for information on rate-limits (Nethergames API Docs)](https://docs.nethergames.org/#section/Rate-Limits)
+- <a href="https://docs.nethergames.org/#section/Rate-Limits" target="_blank" rel="noopener noreferrer"> Click here for information on rate-limits (Nethergames API Docs </a>
 
 <h2> How to Install: </h2>
  
