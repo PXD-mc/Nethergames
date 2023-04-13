@@ -46,7 +46,7 @@ class Player():
     self.uhcWins = data['winsData']['UHC']
     self.conquestWins = data['winsData']['CQ']
     self.soccerWins = data['winsData']['SC']
-    self.blockhuntWins = data['winsData']['BH']
+    # self.blockhuntWins = data['winsData']['BH']
 
     #lists
     self.ranks = data['ranks']
