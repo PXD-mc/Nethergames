@@ -43,9 +43,9 @@ class Servers():
     self.survivalgamesMax = data['sg']['max']
     self.survivalgamesCount = data['sg']['count']
     
-    self.setup = data['setup']
-    self.setupMax = data['setup']['max']
-    self.setupCount = data['setup']['count']
+    # self.setup = data['setup']
+    # self.setupMax = data['setup']['max']
+    # self.setupCount = data['setup']['count']
     
     self.soccer = data['sc']
     self.soccerMax = data['sc']['max']
