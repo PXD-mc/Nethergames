@@ -42,7 +42,7 @@ class Player():
     self.survivalgamesWins = data['winsData']['SG']
     self.murdermysteryWins = data['winsData']['MM']
     self.mommasaysWins = data['winsData']['MS']
-    self.tntrunWins = data['winsData']['TR']
+    # self.tntrunWins = data['winsData']['TR']
     self.uhcWins = data['winsData']['UHC']
     self.conquestWins = data['winsData']['CQ']
     self.soccerWins = data['winsData']['SC']
